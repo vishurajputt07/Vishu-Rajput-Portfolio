@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Front End Developer Portfolio
 
 A modern, responsive portfolio website built with React and JavaScript. Features a beautiful design with smooth animations and a professional color palette.
@@ -135,3 +136,6 @@ The contact form uses EmailJS to send emails. To enable email functionality:
 
 This project is open source and available for personal use.
 
+=======
+# Portfolio
+>>>>>>> 822d661033cd192ccf098f2de37e45a01bb3242a
