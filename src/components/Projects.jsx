@@ -6,37 +6,49 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'V- Films Landing Page',
+      description:
+        'A modern and responsive landing page designed for V-Films, showcasing their brand and services with a clean layout, clear call-to-action sections, and smooth user navigation. The page highlights essential information in a visually appealing format and is fully optimized for all devices.',
+      technologies: ['React.js', 'CSS', 'JavaScript'],
+      image: 'Vfilms.png',
+      github: 'https://github.com/vishurajputt07/EZ-work-Assignment',
+      demo: 'https://vfilms-landing.netlify.app/',
+      period: 'October 2025 - November 2025',
+    },
+    {
+      id: 2,
       title: 'SkillSprint - E-Learning Platform',
       description:
         'Developed an interactive e-learning web platform enabling users to learn and assess technical skills through dynamic lessons and real-time quizzes. Integrated user authentication and course recommendation features with a responsive and modern UI built using React.js and CSS.',
       technologies: ['React.js', 'JavaScript', 'CSS'],
-      image: '📚',
+      image: 'skillsprint.png',
       github: 'https://github.com',
       demo: 'https://example.com',
       period: 'September 2025 - October 2025',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Forest Fire Prediction',
       description:
         'Built a machine learning-powered web application to predict forest fire occurrences, achieving 95% prediction accuracy. Programmed an interactive and intuitive Streamlit UI for real-time fire risk predictions. Accelerated data processing algorithms, reducing computation time by 30%.',
       technologies: ['Python', 'Streamlit', 'Scikit-Learn', 'Pandas'],
-      image: '🔥',
-      github: 'https://github.com',
+      image: 'forest.png',
+      github: 'https://github.com/vishurajputt07/Forest-Fire-Prediction-App',
       demo: 'https://example.com',
       period: 'September 2024 - December 2024',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Ready Go',
       description:
         'Spearheaded front-end development for a responsive community-driven platform, enhancing accessibility and driving user engagement by 25%. Integrated custom animations using JavaScript, resulting in a 40% increase in user engagement metrics. Collaborated with back-end team, enhancing overall platform performance by 15%.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP'],
-      image: '🚀',
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      image: 'readygo.png',
+      github: 'https://github.com/vishurajputt07/Ready-Go-Website',
+      demo: 'https://vishurajputt07.github.io/Ready-Go-Website/',
       period: 'February 2024 - August 2024',
     },
+  
   ]
 
   return (
@@ -51,7 +63,11 @@ const Projects = () => {
           {projects.map((project) => (
             <div key={project.id} className="project-card">
               <div className="project-image">
-                <div className="project-emoji">{project.image}</div>
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="project-img"
+                />
                 <div className="project-overlay">
                   <a
                     href={project.github}

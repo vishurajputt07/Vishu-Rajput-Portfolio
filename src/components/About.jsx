@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <div className="about-stats">
               <div className="stat-item">
-                <div className="stat-number">7.28</div>
+                <div className="stat-number">8.1</div>
                 <div className="stat-label">CGPA</div>
               </div>
               <div className="stat-item">
@@ -35,7 +35,7 @@ const About = () => {
                 <div className="stat-label">Internships</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">3+</div>
+                <div className="stat-number">4+</div>
                 <div className="stat-label">Projects</div>
               </div>
             </div>
