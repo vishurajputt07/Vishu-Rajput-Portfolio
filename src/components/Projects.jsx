@@ -50,7 +50,7 @@ const Projects = () => {
     },
   
   ]
-
+//testing with a comment 
   return (
     <section id="projects" className="projects">
       <div className="projects-container">
