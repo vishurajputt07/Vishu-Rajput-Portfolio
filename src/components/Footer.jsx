@@ -56,7 +56,7 @@ const Footer = () => {
             <h4 className="footer-title">Connect</h4>
             <div className="footer-social">
               <a
-                href="https://github.com"
+                href="https://github.com/vishurajputt07"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -64,7 +64,7 @@ const Footer = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/vishu-rajput"
+                href="https://www.linkedin.com/in/vishu-rajput-a9a53727b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

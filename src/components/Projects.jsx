@@ -19,11 +19,11 @@ const Projects = () => {
       id: 2,
       title: 'SkillSprint - E-Learning Platform',
       description:
-        'Developed an interactive e-learning web platform enabling users to learn and assess technical skills through dynamic lessons and real-time quizzes. Integrated user authentication and course recommendation features with a responsive and modern UI built using React.js and CSS.',
+        'SkillSprint E‑Learning is a responsive online learning platform built with React, featuring engaging UI and structured course presentation. It enables users to explore and access educational content through an intuitive interface designed for seamless learning experiences',
       technologies: ['React.js', 'JavaScript', 'CSS'],
       image: 'skillsprint.png',
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      github: 'https://github.com/vishurajputt07/SkillSprint-E-Learning',
+      demo: 'https://skillsprint-elearning.netlify.app/',
       period: 'September 2025 - October 2025',
     },
     {
